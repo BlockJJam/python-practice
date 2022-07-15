@@ -23,3 +23,8 @@ __pycache__/
 env/
 
 *.xlsx
+*lds*
+*.whl
+*local_data_storage*
+*setup.py
+*.db
