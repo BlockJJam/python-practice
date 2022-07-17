@@ -1,0 +1,10 @@
+{
+    "db":{
+        "url":"mongodb://localhost:27017",
+        "db_name":"mongodb"
+    },
+    "key":{
+        "appkey":"appkey1",
+        "seckey":"secretkey1"
+    }
+}

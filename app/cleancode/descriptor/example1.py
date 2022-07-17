@@ -48,6 +48,8 @@ t.current_city = 'newyork'
 
 print(t.cities_visited)
 
+
+
 class FoodFighter:
     current_food = HistoryTracedAttribute('ate_foods')
     

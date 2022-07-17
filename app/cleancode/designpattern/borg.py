@@ -21,5 +21,13 @@ class BranchFetcher(SharedAllMixin, BaseFetcher):
     def pull(self):
         return f'Branch = {self.source}'
 
+tag1 = BranchFetcher('test1')
+tag2 = TagFetcher('test2')
+tag3 = BranchFetcher('test3')
+
+print(tag1.__dict__)
+print(tag2.__dict__)
+print(tag3.__dict__)
+
 
     
